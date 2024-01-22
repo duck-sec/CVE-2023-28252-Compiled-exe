@@ -1,0 +1,7 @@
+﻿  clfs_eop.cpp
+C:\Users\Ducksec\Desktop\CVE-2023-28252\clfs_eop\clfs_eop.cpp(618,9): warning C4477: 'printf' : format string '% p' requires an argument of type 'void *', but variadic argument 1 has type 'UINT64'
+C:\Users\Ducksec\Desktop\CVE-2023-28252\clfs_eop\clfs_eop.cpp(1451,11): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'UINT64'
+C:\Users\Ducksec\Desktop\CVE-2023-28252\clfs_eop\clfs_eop.cpp(1467,24): warning C4312: 'type cast': conversion from 'unsigned int' to 'UINT64 *' of greater size
+C:\Users\Ducksec\Desktop\CVE-2023-28252\clfs_eop\clfs_eop.cpp(1473,24): warning C4312: 'type cast': conversion from 'unsigned int' to 'UINT64 *' of greater size
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  clfs_eop.vcxproj -> C:\Users\Ducksec\Desktop\CVE-2023-28252\x64\Release\clfs_eop.exe

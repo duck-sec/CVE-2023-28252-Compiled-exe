@@ -1,0 +1,10 @@
+﻿  clfs_eop.cpp
+C:\Users\Ducksec\Desktop\CVE-2023-28252\clfs_eop\clfs_eop.cpp(617,9): warning C4477: 'printf' : format string '% p' requires an argument of type 'void *', but variadic argument 1 has type 'UINT64'
+C:\Users\Ducksec\Desktop\CVE-2023-28252\clfs_eop\clfs_eop.cpp(1449,11): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'UINT64'
+C:\Users\Ducksec\Desktop\CVE-2023-28252\clfs_eop\clfs_eop.cpp(1465,24): warning C4312: 'type cast': conversion from 'unsigned int' to 'UINT64 *' of greater size
+C:\Users\Ducksec\Desktop\CVE-2023-28252\clfs_eop\clfs_eop.cpp(1471,24): warning C4312: 'type cast': conversion from 'unsigned int' to 'UINT64 *' of greater size
+C:\Users\Ducksec\Desktop\CVE-2023-28252\clfs_eop\clfs_eop.cpp(1491,7): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'TCHAR [500]' to 'const char *'
+C:\Users\Ducksec\Desktop\CVE-2023-28252\clfs_eop\clfs_eop.cpp(1491,14): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\string.h(100,13): message : see declaration of 'strcmp'
+C:\Users\Ducksec\Desktop\CVE-2023-28252\clfs_eop\clfs_eop.cpp(1491,7): message : while trying to match the argument list '(TCHAR [500], const char [7])'
+C:\Users\Ducksec\Desktop\CVE-2023-28252\clfs_eop\clfs_eop.cpp(1493,11): warning C4129: 's': unrecognized character escape sequence
